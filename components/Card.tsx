@@ -5,7 +5,7 @@ function Card({ anime }: any) {
         alert(anime.embed_url)
     }
     return (
-        <button onClick={handleClick} className='border-2 border-slate-800 w-full overflow-hidden aspect-[3/4] group'>
+        <button onClick={handleClick} className='border-b-[5px] border-yellow-400 outline w-full overflow-hidden aspect-[3/4] group'>
             <div>
                 <img src={anime.thumbnail_url} className='transform-all duration-300 ease-in-out group-hover:-translate-y-[120px] w-full aspect-[3/4] object-cover' alt="" />
             </div>

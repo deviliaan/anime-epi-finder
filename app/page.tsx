@@ -37,16 +37,16 @@ export default function Home() {
           </form>
         </div>
       </div>
-      <div className="flex-1 mt-4 px-4 grid grid-flow-col grid-rows-3 xl:grid-rows-2 gap-2">
+      <div className="flex-1 mt-4 px-4 grid grid-flow-col grid-rows-4 xl:grid-rows-2 gap-2">
         {
           loading ? (
             <span className="loading loading-spinner loading-lg"></span>
           ) : ''
         }
         {
-          error && (
+          error ? (
             <span>{error}</span>
-          )
+          ) : ''
         }
 
         {
