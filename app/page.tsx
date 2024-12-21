@@ -1,7 +1,6 @@
 'use client'
 import Card from "@/components/Card";
 import axios from "axios";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
